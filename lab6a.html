@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syllabus</title>
+    <link rel="stylesheet" href="lab6a.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <br>
+        <ul class="nav nav-pills">
+          <li class="active"><a data-toggle="pill" href="#CloudComputing">Cloud Computing</a></li>
+          <li><a data-toggle="pill" href="#WebTechnology">Web Technology</a></li>
+          <li><a data-toggle="pill" href="#CompilerDesign">Compiler Design</a></li>
+          <li><a data-toggle="pill" href="#DesignandAnalysisofAlgorithms">Design and Analysis of Algorithms</a></li>
+          <li><a href="lab6.html" class="boxBtn">Homepage</a></li>
+        </ul>
+
+    <br><br>
+
+    <div class="tab-content">       
+          <div id="CloudComputing" class="tab-pane fade in active">
+            <div class="scroll">
+                <ul>
+                    Quick links:
+                    <li><a href="#section1">Section - I</a></li>
+                    <li><a href="#section2">Section - II</a></li>
+                    <li><a href="#labs">List of Lab Practicals</a></li>
+                    <li><a href="#books">Reference Books</a></li>
+                </ul>
+            </div>
+                <h2>COURSE CODE: CS3226</h2>
+                <h2>COURSE NAME: CLOUD COMPUTING </h2>
+                <p>Course Prerequisites: Operating Systems, Computer Networks, Database Management System</p>
+                <div id="section1">
+                    <h3>Section - I</Section></h3>
+        
+                    <h4>Unit-I Introduction to Cloud Computing</h4>
+                    <p>Recent trends in computing, Cluster computing, Distributed computing ,Evolution of cloud computing, Cloud versus traditional architecture, Cloud Computing Architecture, Google Cloud architecture, Infrastructure as a Service (IaaS), Platform as a Service (PaaS), Software as a Service (SaaS), Public cloud, Private cloud, Hybrid cloud, Community cloud</p>
+        
+                    <h4>Unit-II Virtualization</h4>
+                    <p>Introduction to virtualization, Different approaches to virtualization, Hypervisors, Machine Image, Virtual Machine (VM), Compute options in the cloud, Exploring IaaS with Compute Engine, Configuring elastic apps with auto scaling, Basics of virtualization and implementation challenges. System virtualization technologies-architectures and internals. KVM, Xen, VMware.</p>
+                    <p>Memory virtualization-virtualization techniques, ballooning, deduplication and sharing. Network and storage virtualization, Virtual machine migration and replication techniques pre-copy and postcopy techniques, applicability to system availability.</p>
+        
+                    <h4>Unit-III Cloud Services</h4>
+                    <p>Service Oriented Architecture (SOA), Web services, Web 2.0, Web OS. Introduction to IaaS, PaaS, SaaS. Cloud Platform and Management, Exploring PaaS with App Engine, Event driven programs with Cloud Functions, Containerizing and orchestrating apps with Google Kubernetes Engine Software as a Service (SaaS) Docker flow, orchestration with Docker, dynamic linking and legacy linking of containers. The GCP Console, understanding projects, Billing in GCP, Install and configure Cloud SDK, Use Cloud Shell, GCP APIs.</p>
+                </div>
+                <div id="section2">
+                    <h3>Section - II</Section></h3>
+        
+                    <h4>Unit-IV Cloud Storage </h4>
+                    <p>Storage options in the cloud, Structured and unstructured storage in the cloud, unstructured storage using Cloud Storage, SQL managed services, Exploring Cloud SQL, Cloud Spanner as a managed service, NoSQL managed service options, Cloud Datastore, a NoSQL document store, Cloud Bigtable as a NoSQL option. OpenStack: NOVA, Neutron, Keystone Cinder, Swift and Glances, VMware Suit, Apache Cloud Stack</p>
+        
+                    <h4>Unit-V Service Management </h4>
+                    <p>Service Level Agreements (SLAs), Billing and accounting, Billing in GCP Cloud Security: Introduction to security in the cloud, the shared security model, Encryption options, Authentication and authorization with Cloud IAM, Identify Best Practices for Authorization using Cloud IAM., Introduction to configuration and management tools Ansible, Architecture of DevOps.</p>
+        
+                    <h4>Unit-VI Cloud Network and Security </h4>
+                    <p>Introduction to networking in the cloud, defining a Virtual Private Cloud, Public and private IP address basics, Google's network architecture, Routes and firewall rules in the cloud, Multiple VPC networks, building hybrid clouds using VPNs, interconnecting, and direct peering, Different options for load balancing. Introduction to security in the cloud, the shared security model, Encryption options, Authentication and authorization with Cloud IAM, Identify Best Practices for Authorization using Cloud IAM.</p>
+                </div>
+                <div id="labs">
+                    <h3>List of Lab Practicals</Section></h3>
+        
+                    <ol>
+                        <li>To setup AWS accounts and launch instances.</li>
+                        <li>To install an OS using VirtualBox/ VMWare Workstation. Add Storage to create new virtual disk.</li>
+                        <li>To Deploy Virtual Machine on hypervisor such as KVM, ESXi. Take Backup and Migrate them.
+                        </li>
+                        <li>To use Infrastructure as a Service to facilitates for creating and deleting compute resources. Create network and attach volumes to run instances.</li>
+                        <li>To install docker on window/linux and build docker image from docker hub.</li>
+                        <li>Deploy a stateless/stateful application on Kubernetes cluster. </li>
+                        <li>To work on different Cloud Storage Services. </li>
+                        <li>To create login into AWS and use S3 Bucket Service for storage.
+                        </li>
+                        <li>Develop elastic services for dynamic load scenario using AWS APIs. Build load balancer and explore on scalability, fault detection and performance. </li>
+                    </ol>
+                </div>
+                <div id="books">
+                    <h3>Reference Books:</Section></h3>
+        
+                    <ol>
+                        <li>Judith Hurwitz, R.Bloor, M.Kanfman, F.Halper, “Cloud Computing for Dummies”, Wiley,India. </li>
+                        <li>Ronald Krutz and Russell Dean Vines, “Cloud Security”, Wiley-India</li>
+                        <li>Gautam Shroff. “Enterprise Cloud Computing”, Cambridge</li>
+                        <li>Barrie Sosinsky, “Cloud Computing Bible”, Wiley India</li>
+                        <li>Antohy T Velte, et.al, “Cloud Computing : A Practical Approach”, McGraw Hill. </li>
+                        <li>Michael Miller, “Cloud Computing”, Que Publishing </li>
+                        <li>Tim Malhar, S.Kumaraswammy, S.Latif, “Cloud Security & Privacy”, SPD,O'REILLY </li>
+                        <li>Scott Granneman, “Google Apps”, Pearson</li>
+                    </ol>
+                </div>
+          </div>
+            
+          <div id="WebTechnology" class="tab-pane fade">
+            <div class="scroll">
+                <ul>
+                    Quick links:
+                    <li><a href="#section1a">Section - I</a></li>
+                    <li><a href="#section2a">Section - II</a></li>
+                    <li><a href="#labsa">List of Lab Practicals</a></li>
+                    <li><a href="#booksa">Reference Books</a></li>
+                </ul>
+            </div>
+                <h2>COURSE CODE:CS3215 </h2>
+                <h2>COURSE NAME:WEB TECHNOLOGY</h2>
+                <p>Course Prerequisites: Operating Systems, Computer Networks, Database Management System</p>
+                <div id="section1a">
+                    <h3>Section - I</Section></h3>
+        
+                    <h4>Unit-I Front End Tools</h4>
+                    <p>Introduction to web technology, internet and www, Web site planning and design issues. HTML5:
+                        structure of html document, HTML elements: headings, paragraphs, line break, styles, colors, fonts, links, frames, lists, tables, images and forms, CSS, Bootstrap, XML, JSON.</p>
+        
+                    <h4>Unit-II Client-Side Technologies</h4>
+                    <p>IJavaScript: Overview of JavaScript, Data types, Control Structures, Arrays, Functions and Scopes,
+                        HTML5 forms Validation, Objects in JS, DOM: DOM levels, DOM Objects and their properties and
+                        methods, Manipulating DOM. JQuery: Introduction to JQuery, Loading JQuery, selecting elements,
+                        changing styles, creating elements, appending elements, removing elements, handling events.</p>
+        
+                    <h4>Unit-III Server-Side Technologies </h4>
+                    <p>PHP: Introduction to PHP, Features, sample code, PHP script working, PHP syntax, conditions &
+                        Loops, Functions, String manipulation, Arrays & Functions, Form handling, Cookies & Sessions,
+                        File Handling, Exception Handling, E-mail validations, MySQL with PHP</p>
+                </div>
+                <div id="section2a">
+                    <h3>Section - II</Section></h3>
+        
+                    <h4>Unit-IV Spring Boot</h4>
+                    <p>Overview of Spring Boot, Spring Framework, Installing Spring Boot, Build Tool
+                        Maven/Gradle/Ant, Core Features, Spring Security, Web Applications, JPA for database
+                        connectivity, working with SQL and NoSQL, Messaging, Testing, Deploying Spring Boot
+                        Applications, Monitoring.</p>
+        
+                    <h4>Unit-V React</h4>
+                    <p>Introduction to React, React component, JSX, Render function, Component API, Component
+                        lifecycle, State, Props, Mixins, Component composition, Pass data from parent to child, Pass data
+                        from child to parent, Component styling, Forms, Events, Refs, Keys, Router, Flux.</p>
+        
+                    <h4>Unit-VI Node JS</h4>
+                    <p>Introduction to Node JS, Installation of Node JS, Node JS Modules, Node Package Manager (npm),
+                        Creating Web server, File System, Express JS, Serving Static Resources, Database connectivity.</p>
+                </div>
+                <div id="labsa">
+                    <h3>List of Lab Practicals</Section></h3>
+        
+                    <ol>
+                        <li>Installation and configuration and testing working of XAMPP server for local host.</li>
+                        <li>Develop a basic web page using the HTML tags you learned in class. (Develop a responsive web
+                            page for your CV using multiple column layout.) </li>
+                        <li>Create an admission Template form for VIT admission Process? Perform the validation for email
+                            and phone no fields (Develop a responsive web site for your CV having video background for first
+                            page and perform the validation using email or mobile number as username and a password of min
+                            length 11 consisting at least one uppercase letter one digit and one special character.) 
+                        </li>
+                        <li>Create an one IT company Template with video in Background (The Web Page must be
+                            Responsive and the page contains video in Background) </li>
+                        <li>Write a JavaScript program to reverse the elements of a given array. </li>
+                        <li>Develop a website using toggleable or dynamic tabs or pills with bootstrap and JQuery</li>
+                        <li>Assume we have a file named "webtech.txt", write the correct syntax to open and read the file
+                            content.</li>
+                        <li>Write a program to calculate Electricity bill in PHP (a) You need to write a PHP program to
+                            calculate electricity bill using if-else conditions. (b) Conditions For first 50 units - Rs. 3.50/unit For
+                            next 100 units - Rs. 4.00/unit For next 100 units - Rs. 5.20/unit for units above 250 - Rs. 6.50/unit
+                            You can use conditional statements.
+                            </li>
+                            <li>Create three MySQL database tables and write php scripts to read, insert & delete data through
+                                web interface.</li>
+                            <li>Design and implement a website using REST API and Spring Boot</li>
+                            <li>Design and implement a website using REST API, Spring Boot and MySQL/Oracle.</li>
+                            <li>Design and implement a website using REACT, Spring Boot and MySQL/Oracle.
+                            </li>
+                            <li>Design and implement a website using REACT, Node Js and MySQL/Oracle</li>
+                    </ol>
+                </div>
+                <div id="booksa">
+                    <h3>Reference Books:</Section></h3>
+        
+                    <ol>
+                        <li>Kumar, A., Web technologies, CRC press, 2019</li>
+                        <li>Gupta, R., Internet & Web Technologies, Engineering Handbook, 2019</li>
+                        <li>Martin, M.G., Programming for Beginners: 6 Books in 1 -
+                            Swift+PHP+Java+Javascript+Html+CSS: Basic Fundamental Guide for Beginners,
+                            independently published, 2018 </li>
+                        <li>Learning PHP, MySQL & JavaScript: With jQuery, CSS & HTML5, O'Reilly Media; 5th edition,
+                            2018</li>
+                        <li>Kohli, S., Web Technologies, PPB Publications, 2015</li>
+                        <li>GiulioZambon, “Beginning JSP, JSF and Tomcat”, Apress Publication, Second Edition, 2013 </li>
+                        <li>Jeremy McPeak& Paul Wilton,” Beginning JavaScript”, Wrox Publication, Fifth Edition, 2015
+                        </li>
+                        <li>Robert W. Sebesta: Programming the World Wide Web, 4th Edition, Pearson education, 2008</li>
+                    </ol>
+                </div>
+          </div>
+          <div id="CompilerDesign" class="tab-pane fade">
+            <div class="scroll">
+                <ul>
+                    Quick links:
+                    <li><a href="#section1b">Section - I</a></li>
+                    <li><a href="#section2b">Section - II</a></li>
+                    <li><a href="#labsb">List of Lab Practicals</a></li>
+                    <li><a href="#booksb">Reference Books</a></li>
+                </ul>
+            </div>
+                <h2>COURSE CODE: CS3207  </h2>
+                <h2>COURSE NAME: COMPILER DESIGN </h2>
+                <p>Course Prerequisites: Automata Theory (Grammar)</p>
+                <div id="section1b">
+                    <h3>Section - I</Section></h3>
+        
+                    <h4>Unit 1: Introduction to Compilers, interpreters, Assembler, Linker and Loader:</h4>
+                    <p>Compilers: Introduction to compiler phases, features of machine-dependent and independent
+                        compilers, overview of types of compilers, introduction to cross compiler, Interpreters: compiler
+                        vs. interpreter, phases, and working, Preprocessor: header file and macro expansion, Assembler:
+                        Introduction to Assembler, overview of types of Assembler, Linker and Loader: Introduction to
+                        Linker and Loader, overview of types of Linker and Loader.</p>
+        
+                    <h4>Unit 2: Lexical Analysis and Introduction of Syntax Analysis:</h4>
+                    <p>Lexical Analysis and Introduction to Syntax Analysis: Introduction to Compiler, Phases and
+                        Passes, Bootstrapping, Role of a Lexical Analyzer, Specification and Recognition of Tokens,
+                        LEX/FLEX, Expressing Syntax, Top-Down Parsing, Predictive Parsers. Implementing Scanners,
+                        operator precedence parsers.</p>
+        
+                    <h4> Syntax Analysis and Semantic Analysis: </h4>
+                    <p>Syntax and Semantic Analysis: Bottom-Up Parsing, LR Parsers: Overview of types of LR
+                        Parsers, Constructing LALR parsing tables, Introduction to YACC/BISON, Type Checking, and
+                        Type Conversion. Symbol Table Structure.</p>
+                </div>
+                <div id="section2b">
+                    <h3>Section - II</Section></h3>
+        
+                    <h4>Unit 4: Syntax-Directed Translation and Intermediate Code Generation:</h4>
+                    <p>Syntax-Directed Translation and Intermediate Code Generation: Syntax-Directed
+                        Definitions, Bottom-Up Evaluation, Intermediate Representations, and Intermediate Code
+                        Generation: Quadraples, Error Detection & Recovery: Lexical Phase errors, syntactic phase
+                        errors, semantic errors. More about translation: Array references in arithmetic expressions.</p>
+        
+                    <h4>Unit 5: Code Generation:</h4>
+                    <p>Code Generation: Issues in Code Generation, Basic Blocks and Flow Graphs, Next-use
+                        information, A simple Code generator, DAG representation of Basic Blocks, Peephole
+                        Optimization. Generating code from DAGs</p>
+        
+                    <h4>Unit 6: Code Optimization, Run-Time Environments and Data Flow Analysis:</h4>
+                    <p>Code Optimization and Run-Time Environments: Introduction, Principle Sources of
+                        Optimization, Optimization of basic Blocks, Introduction to Global Data Flow Analysis, Runtime
+                        Environments, and Source Language issues. Storage Organization, Storage Allocation strategies,
+                        Access to non-local names, Parameter Passing, Machine Dependent Optimization, Introduction to Data Flow Analysis: Introduction to constant propagation, live range analysis.</p>
+                </div>
+                <div id="labsb">
+                    <h3>List of Lab Practicals</Section></h3>
+        
+                    <ol>
+                        <li>LEX/FLEX specification and programming regular expressions.</li>
+                        <li> Implement LEX/FLEX code to count the number of characters, words and lines in an input
+                            file.</li>
+                        <li>Implement LEX/FLEX code to select only lines that begin or end with the letter 'a' and delete
+                            everything else.</li>
+                        <li>Convert all uppercase characters to lowercase except inside comments.</li>
+                        <li>Change all numbers from decimal to hexadecimal notation, printing a summary statistic
+                            (number of replacements) to stderr.</li>
+                        <li>Implement Lexical Analyzer for language C.</li>
+                        <li>Implement LR/SLR/LALR Parser.</li>
+                        <li>YAAC specifications and implement Parser for specified grammar.</li>
+                            <li>Implement Parser for language C. </li>
+                            <li> Implement Syntax directed Translator. </li>
+                            <li> Implement an Intermediate code generator (three address code and Quadruples) </li>
+                            <li> Implement a code optimizer for C/C++ subset. </li>
+                            <li> Implement a code generator for C/C++ subset. </li>
+                    </ol>
+                </div>
+                <div id="booksb">
+                    <h3>Reference Books:</Section></h3>
+        
+                    <ol>
+                        <li>Aho, A.V., Lam, M.S., Sethi, R., & Ullman, J.D. (2006). Compilers: Principles, Techniques,
+                            and Tools, Addison Wesley, ISBN 978-81317-2101-8 (2nd Edition)</li>
+                        <li>Cooper, K., & Torczon, L. (2011). Engineering a compiler. Morgan Kaufmann, ISBN 155860-
+                            698-X</li>
+                        <li>Appel, A. W. (2004). Modern compiler implementation in C. Cambridge university press</li>
+                        <li>Appel, A. W., & Jens, P. (2002). Modern compiler implementation in Java. In ISBN 0-521-58388-8. Cambridge University Press.</li>
+                        <li>Appel, A. W. (1998). Modern Compiler Implementation in ML, In ISBN 0-521-60764-7.
+                            Cambridge University Press</li>
+                        <li>Raghavan, V. (2010). Principles of Compiler Design. Tata McGraw-Hill Education</li>
+                        <li>Muchnick, S. (1997). Advanced compiler design implementation. Morgan Kaufmann, ISBN
+                            8178672413
+                        </li>
+                        <li>Levine, J. R., Mason, J., Levine, J. R., Mason, T., Brown, D., Levine, J. R., & Levine, P.
+                            (1992). Lex & yacc. "O'Reilly Media, Inc"</li>
+                    </ol>
+                </div>
+          </div>
+          <div id="DesignandAnalysisofAlgorithms" class="tab-pane fade">
+            <div class="scroll">
+                <ul>
+                    Quick links:
+                    <li><a href="#section1c">Section - I</a></li>
+                    <li><a href="#section2c">Section - II</a></li>
+                    <li><a href="#labsc">List of Lab Practicals</a></li>
+                    <li><a href="#booksc">Reference Books</a></li>
+                </ul>
+            </div>
+                <h2>COURSE CODE: CS3205 </h2>
+                <h2>COURSE NAME: DESIGN AND ANALYSIS OF ALGORITHMS</h2>
+                <p>Course Prerequisites: Computer Networks</p>
+                <div id="section1c">
+                    <h3>Section - I</h3>
+        
+                    <h4>Unit-I: Basic introduction and time and space complexity analysis:</h4>
+                    <p>Asymptotic notations (Big Oh, small oh, Big Omega, Theta notations). Best case, average case,
+                        and worst-case time and space complexity of algorithms. Overview of searching, sorting
+                        algorithms. Adversary lower bounds (for the comparison-based sorting algorithms). Using
+                        Recurrence relations and Mathematical Induction to get asymptotic bounds on time
+                        complexity. Master's theorem and applications.</p>
+        
+                    <h4>Unit-II Divide and Conquer:</h4>
+                    <p>General strategy, Analyzing Quick sort, Merge sort, Finding a majority element, Order statistics
+                        (randomized and deterministic algorithms), Efficient algorithms for Integer arithmetic
+                        (Euclid's algorithm, Karatsuba's algorithm for integer multiplication, fast exponentiation)</p>
+        
+                    <h4>Unit-III Dynamic Programming: </h4>
+                    <p>General strategy, simple dynamic programming-based algorithms to compute Fibonacci
+                        numbers, binomial coefficients, Matrix Chain multiplication, Coin change problem, 0-1
+                        Knapsack, Traveling Salesperson Problem, All pair shortest path algorithm, Longest increasing
+                        subsequence problem, Largest independent set for trees.</p>
+                </div>
+                <div id="section2c">
+                    <h3>Section - II</h3>
+        
+                    <h4>Unit-IV Greedy and Backtracking strategy:</h4>
+                    <p>Greedy: General strategy, Analysis and correctness proof of minimum spanning tree and
+                        shortest path algorithms, fractional knapsack problem, conflict free scheduling. Backtracking: General strategy, n-queen problem, backtracking strategy for some NP-complete problems (e.g. graph coloring, subset sum problem, SUDOKU) </p>
+        
+                    <h4>Unit-V Introduction to complexity classes and NP-completeness:</h4>
+                    <p>Complexity classes P, NP, coNP, and their interrelation, Notion of polynomial time many one
+                        reductions reduction, Notion of NP-hardness and NP-completeness, Cook-Levin theorem and
+                        implication to P versus NP question, NP-hardness of halting problem. NP-Complete problems
+                        (some selected examples from - Satisfiability problem, Circuit-SAT, 3-CNF SAT, vertex cover
+                        problem, independent set problem, clique problem, Hamiltonian-circuit problem, subset sum
+                        problem, Integer Linear Programming) </p>
+        
+                    <h4>Unit-VI Introduction to Randomized and Approximation algorithms:</h4>
+                    <p>Introduction to randomness in computation, Las-Vegas and Monte-Carlo algorithms,
+                        Abundance of witnesses/solutions and application of randomization, solving SAT for formulas
+                        with “many” satisfying assignments, randomized quick sort, Karger's Min-cut algorithm,
+                        coupon collector problem.</p>
+                        <p>Introduction to Approximation algorithms for NP-optimization problems, Approximation
+                            algorithm for Vertex Cover, metric Traveling-Sales-Person Problem (metric-TSP), Hardness of
+                            approximation for TSP.</p>
+                </div>
+                <div id="labsc">
+                    <h3>List of Lab Practicals</h3>
+        
+                    <ol>
+                        <li>Assignment based on some simple coding problems on numbers, graphs, matrices</li>
+                        <li> Assignment based on Divide and Conquer strategy (e.g. majority element search, finding kth
+                            rank element in an array)</li>
+                        <li>IAssignment based on Divide and Conquer strategy (e.g. efficient algorithm for Josephus
+                            problem using recurrence relations, fast modular exponentiation)
+                            </li>
+                        <li>Assignment based on Dynamic Programming strategy (e.g. Matrix chain multiplication,
+                            Longest increasing subsequence)</li>
+                        <li>Assignment based on Dynamic Programming strategy (e,g, All pair shortest path, Traveling
+                            Sales Person problem)
+                            </li>
+                        <li>Assignment based on Greedy strategy (e.g. Huffman encoding)</li>
+                        <li>Assignment based on Backtracking (e.g. graph coloring, n-queen problem)</li>
+                        <li>Assignment based on analysis of quick sort (deterministic and randomized variant)</li>
+                            <li>Assignment based on Las-Vegas and Monte-Carlo algorithm for majority element search</li>
+                            <li> Assignment based on factor-2 approximation algorithm for metric-TSP
+                            </li>
+                    </ol>
+                </div>
+                <div id="booksc">
+                    <h3>Reference Books:</h3>
+        
+                    <ol>
+                        <li>Cormen, Leiserson, Rivest and Stein “Introduction to Algorithms” ,PHI 3nd edition, 2009. ISBN
+                            81-203-2141-</li>
+                        <li>Jon Kleinberg, Eva Tardos “Algorithm Design”, Pearson, 1st edition, 2005. ISBN 978-81-317-
+                            0310-6
+                            </li>
+                        <li>Dasgupta, Papadimitriu, Vazirani “Algorithms” McGraw-Hill Education; 1 edition (September
+                            13, 2006), ISBN-10: 9780073523408, ISBN-13: 978-0073523408
+                            </li>
+                        <li>Motwani, Raghavan “Randomized Algorithms”, Cambridge University Press; 1 edition (August 25, 1995), ISBN-10:
+                            0521474655, ISBN-13: 978-0521474658</li>
+                        <li>Vazirani, “Approximation Algorithms”, Springer (December 8, 2010), ISBN-10: 3642084699, ISBN-13: 978-
+                            3642084690Gerd Keiser, MC Graw Hill International edition, optical fiber communication , third edition</li>
+                    </ol>
+                </div>
+          </div>
+        </div>
+      </div>
+    
+</body>
+</html>
